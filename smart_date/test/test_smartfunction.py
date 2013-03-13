@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+# pylint: disable=C0302, E0211, R0201
 from unittest import TestCase
 import smart_date.date as date
 from smart_date.test.data_provider import data_provider
-from smart_date.smartfunction import FullFormula, EnumFormula, DiapasonFormula,\
-    SmartFormula, BlasFormula, BlasYearFormula, SimpleDateFormula,\
-    FormulaException, Formula, smart_function
+from smart_date.smartfunction import FullFormula, EnumFormula, \
+    DiapasonFormula, SmartFormula, BlasFormula, BlasYearFormula, \
+    SimpleDateFormula, FormulaException, Formula, smart_function
 
 
 class FormulaTest(TestCase):

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# pylint: disable=C0302, E0211, R0201
 import datetime
 from unittest import TestCase
 from smart_date import date
@@ -185,6 +186,6 @@ class DateTest(TestCase):
         '''
         говно тест
         '''
-        dt = datetime.datetime.now()
-        y = int(dt.strftime('%Y'))
-        self.assertEquals(y, date.get_current_year())
+        dt_now = datetime.datetime.now()
+        year = int(dt_now.strftime('%Y'))
+        self.assertEquals(year, date.get_current_year())
