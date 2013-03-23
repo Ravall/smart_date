@@ -21,7 +21,4 @@ setup(
         'Intended Audience :: Developers',
         'Programming Language :: Python',
     ],
-    install_requires = [
-        'pylint==0.26.0',
-    ]
 )
